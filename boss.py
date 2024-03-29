@@ -14,38 +14,38 @@ class Boss:
 
 # Boss data
 boss_data = [
-    # Black Wing Lair
-    Boss(610, "Razorgore the Untamed", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(611, "Vaelastrasz the Corrupt", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(612, "Broodlord Lashlayer", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(613, "Firemaw", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(614, "Ebonroc", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(615, "Flamegor", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(616, "Chromaggus", "Black Wing Lair", "bwl", 469, 9, 40, []),
-    Boss(617, "Nefarian", "Black Wing Lair", "bwl", 469, 9, 40, []),
+    # 黑翼之巢
+    Boss(610, "狂野的拉佐格尔", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(611, "堕落的瓦拉斯塔兹", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(612, "勒什雷尔", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(613, "费尔默", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(614, "埃博诺克", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(615, "弗莱格尔", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(616, "克洛玛古斯", "黑翼之巢", "bwl", 469, 9, 40, []),
+    Boss(617, "奈法利安", "黑翼之巢", "bwl", 469, 9, 40, []),
 
-    # Molten Core
-    Boss(663, "Lucifron", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(664, "Magmadar", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(665, "Gehennas", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(666, "Garr", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(667, "Shazzrah", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(668, "Baron Geddon", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(669, "Sulfuron Harbinger", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(670, "Golemagg the Incinerator", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(671, "Majordomo Executus", "Molten Core", "mc", 409, 9, 40, []),
-    Boss(672, "Ragnaros", "Molten Core", "mc", 409, 9, 40, []),
+    # 熔火之心
+    Boss(663, "鲁西弗隆", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(664, "玛格曼达", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(665, "基赫纳斯", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(666, "加尔", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(667, "沙斯拉尔", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(668, "迦顿男爵", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(669, "萨弗隆先驱者", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(670, "焚化者古雷曼格", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(671, "管理者埃克索图斯", "熔火之心", "mc", 409, 9, 40, []),
+    Boss(672, "拉格纳罗斯", "熔火之心", "mc", 409, 9, 40, []),
 
-    # Temple of Ahn'Qiraj
-    Boss(709, "The Prophet Skeram", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(710, "Silithid Royalty", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, ["Lord Kri", "Princess Yauj", "Vem"]),
-    Boss(711, "Battleguard Sartura", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(712, "Fankriss the Unyielding", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(713, "Viscidus", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(714, "Princess Huhuran", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(715, "Twin Emperors", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, ["Emperor Vek'lor", "Emperor Vek'nilash"]),
-    Boss(716, "Ouro", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, []),
-    Boss(717, "C'thun", "Temple of Ahn'Qiraj", "aq40", 531, 9, 40, ["Eye of C'Thun"]),
+    # 安其拉神殿
+    Boss(709, "预言者斯克拉姆", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(710, "安其拉三宝", "安其拉神殿", "aq40", 531, 9, 40, ["克里勋爵", "亚尔基公主", "维姆"]),
+    Boss(711, "沙尔图拉", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(712, "顽强的范克瑞斯", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(713, "维希度斯", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(714, "哈霍兰公主", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(715, "双子皇帝", "安其拉神殿", "aq40", 531, 9, 40, ["维克洛尔大帝", "维克尼拉斯大帝"]),
+    Boss(716, "奥罗", "安其拉神殿", "aq40", 531, 9, 40, []),
+    Boss(717, "克苏恩", "安其拉神殿", "aq40", 531, 9, 40, ["克苏恩之眼"]),
 
     # Ruins of Ahn'Qiraj
     Boss(718, "Kurinnaxx", "Ruins of Ahn'Qiraj", "aq20", 509, 148, 20, []),
@@ -68,7 +68,7 @@ boss_data = [
     Boss(793, "Hakkar", "Zul'Gurub", "zg", 309, 148, 20, []),
 
     # Onyxia"s Lair
-    Boss(1084, "Onyxia", "Onyxia's Lair", "ony", 249, 9, 40, []),
+    Boss(1084, "奥妮克希亚", "奥妮克希亚的巢穴", "ony", 249, 9, 40, []),
 
     # Naxxramas
     # The Arachnid Quarter

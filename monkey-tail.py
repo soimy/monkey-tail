@@ -174,7 +174,7 @@ Tk().withdraw()
 input_filename = askopenfilename(filetypes=[('Text files', '.txt')], title='Select the log file')
 output_filename = input_filename.replace(".txt", ".monkey-tail.txt")
 
-with open(input_filename, "r") as input_file, open(output_filename, "w") as output_file:
+with open(input_filename, "r", encoding="utf-8") as input_file, open(output_filename, "w", encoding="utf-8") as output_file:
     for i, line in enumerate(input_file, 1):
         # process the line
         process_line(line, output_file)
