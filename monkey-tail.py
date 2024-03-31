@@ -77,7 +77,7 @@ def process_heal(log_entry, writer):
 
 def process_line(log_entry, writer):
     log_entry = fix_zone(log_entry)
-    log_entry = update_realm(log_entry, "Everlook")
+    log_entry = update_realm(log_entry, "Everlook-亚服")
 
     fix_segmenting_start(log_entry, writer)
 
